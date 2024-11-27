@@ -46,7 +46,7 @@ export const BoxThree = styled.div`
     width: 30vw;
     height: 30vh;
     position: relative;
-    right: 10rem;
+    right: 20rem;
 `;
 
 export const Fig = styled.figcaption`
