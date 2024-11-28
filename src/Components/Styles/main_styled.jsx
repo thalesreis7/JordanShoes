@@ -37,11 +37,11 @@ export const BoxText = styled.div`
 `;
 
 export const BoxCard = styled.section`
-    border: solid 2px orange;
+    /* border: solid 2px orange; */
     ${Center}
     justify-content: space-around;
     flex-wrap:wrap;
     gap:0.1rem;
-    width: 80%;
-    height: 73%;
+    width: 84%;
+    height: 74%;
 `;

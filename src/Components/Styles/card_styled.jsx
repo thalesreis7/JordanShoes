@@ -7,7 +7,50 @@ export const  Center = css`
 `;
 
 export const Card = styled.div`
-    border: solid 1px blue;
-    width: 30%;
-    height: 44%;
+  /* border: solid 1px blue; */
+  width: 30%;
+  height: 47%;
+  ${Center}
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
+export const BoxFigure = styled.figure`
+  /* border: solid 1px red; */
+  width: 96%;
+  height: 67%;
+  background-color: #F3F7FF;
+  ${Center}
+  img{
+    width:60%;
+  }
+`;
+ 
+export const BoxText = styled.div`
+  /* border: solid 1px green; */
+  ${Center}
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 96%;
+  height: 26%;
+`;
+
+export const Category = styled.p`
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #000;
+`;
+
+export const Name = styled.p`
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #b8c8e9;
+`;
+
+export const Preco = styled.p`
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #000;
 `;
