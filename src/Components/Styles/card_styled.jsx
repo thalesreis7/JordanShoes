@@ -21,8 +21,15 @@ export const BoxFigure = styled.figure`
   height: 67%;
   background-color: #F3F7FF;
   ${Center}
+  &:hover{
+    background-color: #cadafa;
+  }
   img{
     width:60%;
+    &:hover{
+    transition: 300ms linear;
+    transform: rotate(-30deg) translateZ(0) scale(1.3);
+    }
   }
 `;
  

@@ -10,7 +10,7 @@ import jordan_citrus from "../../assets/img/jordan_citrus.svg"
 
 export default function Main() {
   return (
-    <main>
+    <S.Main>
       <S.MainBox>
         <S.BoxText>
             <h1>Os melhores em um só lugar</h1>
@@ -30,6 +30,6 @@ export default function Main() {
             preco={"999,00"}/>
         </S.BoxCard>
       </S.MainBox>
-    </main>
+    </S.Main>
   )
 }

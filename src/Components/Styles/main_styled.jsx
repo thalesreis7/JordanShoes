@@ -6,6 +6,11 @@ export const Center = css `
     justify-content: center;
 `;
 
+export const Main = styled.main`
+    /* border: solid 3px purple; */
+    height: 119vh;
+`;
+
 export const MainBox = styled.section`
     border: solid 1px red;
     height: 100vh;
