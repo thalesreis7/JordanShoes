@@ -9,10 +9,10 @@ export default function Footer() {
         <p>Política de Privacidade</p>
         <p>Política de Cookies</p>
         <p>Termos de Uso</p>
-        <div>
-            <p>@2024 Todos os direitos reservados</p>
-        </div>
       </S.BoxFooter>
+      <S.BoxCopy>
+        <p>@2024 Todos os direitos reservados</p>
+      </S.BoxCopy>
     </S.Footer>
   )
 }

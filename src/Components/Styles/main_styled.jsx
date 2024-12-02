@@ -48,5 +48,5 @@ export const BoxCard = styled.section`
     flex-wrap:wrap;
     gap:0.1rem;
     width: 84%;
-    height: 74%;
+    height: 81%;
 `;
