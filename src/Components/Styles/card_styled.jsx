@@ -30,6 +30,7 @@ export const BoxFigure = styled.figure`
     transition: 300ms linear;
     transform: rotate(-30deg) translateZ(0) scale(1.3);
     }
+    cursor: pointer;
   }
 `;
  
@@ -60,4 +61,5 @@ export const Preco = styled.p`
   font-size: 1.1rem;
   font-weight: 500;
   color: #000;
+  cursor: pointer;
 `;

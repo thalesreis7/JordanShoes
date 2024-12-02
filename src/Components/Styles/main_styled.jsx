@@ -12,7 +12,7 @@ export const Main = styled.main`
 `;
 
 export const MainBox = styled.section`
-    border: solid 1px red;
+    /* border: solid 1px red; */
     height: 100vh;
     ${Center}
     flex-direction: column;
