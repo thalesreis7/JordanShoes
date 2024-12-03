@@ -1,5 +1,5 @@
 import React from 'react'
-import * as S from '../Styles/header_styled'
+import * as S from '../Styles/Media/media_styled'
 import background from '../../assets/img/image-michael-jordan.svg'
 import icon from '../../assets/Icon/logo-jordan.svg'
 export default function Header() {

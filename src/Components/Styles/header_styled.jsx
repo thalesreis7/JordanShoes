@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components"
 
+
 export const Center = css`
     display: flex;
     align-items: center;
@@ -7,7 +8,7 @@ export const Center = css`
 `; 
 
 export const Header = styled.header`
-    /* border: solid 1px blue; */
+    border: solid 1px blue;
     ${Center}
     flex-direction: column;
     justify-content: space-evenly;

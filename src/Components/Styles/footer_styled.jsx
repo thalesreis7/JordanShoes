@@ -18,7 +18,7 @@ export const Footer = styled.footer`
     background-color: #111111;
     height: 10vh;
     ${Center}
-    justify-content: space-between;
+    justify-content: space-around;
 `;
 
 export const BoxFooter = styled.div`
@@ -27,7 +27,7 @@ export const BoxFooter = styled.div`
     width: 42%;
     ${Center}
     /* flex-direction: column; */
-    justify-content: space-around;
+    justify-content: space-between;
     ${FooterFont}
 `;
 
