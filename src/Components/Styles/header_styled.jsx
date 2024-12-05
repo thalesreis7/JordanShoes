@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components"
-
+import breakpoints from "./breakpoint";
 
 export const Center = css`
     display: flex;
@@ -13,6 +13,9 @@ export const Header = styled.header`
     flex-direction: column;
     justify-content: space-evenly;
     height:50vh;
+    @media ${breakpoints.gb} {
+        height: 22vh;
+    }
     
 `;
 
@@ -20,6 +23,9 @@ export const BoxOne = styled.div`
     /* border: solid 1px green; */
     ${Center}  
     height: 3vh;
+    @media ${breakpoints.gb}{
+        height:18vh;
+    }
 `;
 
 export const P = styled.p`
@@ -28,6 +34,7 @@ export const P = styled.p`
     font-weight: 600;
     position: relative;
     bottom: 2rem;
+    
 `
 
 export const BoxTwo = styled.div`
@@ -48,6 +55,13 @@ export const BoxThree = styled.div`
     height: 30vh;
     position: relative;
     right: 20rem;
+    @media ${breakpoints.gb} {
+        /* border: solid 1px black; */
+        position:relative;
+        width: 40%;
+        right: 15rem;
+        bottom: 2rem;
+    }
 `;
 
 export const Fig = styled.figcaption`
@@ -62,6 +76,10 @@ export const Fig = styled.figcaption`
         font-family: 'Archivo', sans-serif;
         font-size: 1rem;
         color: #ffff;
+   }
+   @media ${breakpoints.gb} {
+        width: 33%;
+
    }
 `;
 
@@ -83,5 +101,16 @@ export const BoxText = styled.div`
         color: #ffff;
         position: relative;
         bottom: 4rem;
+        
+        @media ${breakpoints.gb} {
+            width: 84%;
+            font-size: 0.8rem;
+            position: relative;
+            bottom: 2rem;
+        }
+    }
+
+    @media ${breakpoints.gb} {
+        /* width: 84%; */
     }
 `;
