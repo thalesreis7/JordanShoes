@@ -1,6 +1,7 @@
 const size = {
     gb: '1024px',
     ipadAir5: '820px',
+    ipadMini: '768px',
     md: '440px',
     sm: '390px'
 }
@@ -8,6 +9,7 @@ const size = {
 const breakpoints = {
     gb: `(max-width: ${size.gb})`,
     ipadAir5: `(max-width: ${size.ipadAir5})`,
+    ipadMini: `(max-width: ${size.ipadMini})`,
     md: `(max-width: ${size.md})`,
     sm: `(max-width: ${size.sm})`,
 }

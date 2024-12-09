@@ -21,6 +21,9 @@ export const Header = styled.header`
     /* border: solid black 1px; */
     height: 19vh;
   }
+  @media ${breakpoints.ipadMini} {
+    height: 24vh;
+  }
 `;
 
 export const BoxOne = styled.div`
@@ -73,6 +76,13 @@ export const BoxThree = styled.div`
   @media ${breakpoints.ipadAir5} {
     width: 35%;
   }
+  @media ${breakpoints.ipadMini} {
+    border: solid 1px blue;
+    height: 29vh;
+    position: relative;
+    right: 14rem;
+    bottom: 3rem;
+  }
 `;
 
 export const Fig = styled.figcaption`
@@ -111,6 +121,9 @@ export const BoxText = styled.div`
          /* TABLET */
     @media ${breakpoints.ipadAir5}{
         font-size: 1.2rem;
+    }
+    @media ${breakpoints.ipadMini} {
+        font-size: 1rem;
     }
   }
   p {

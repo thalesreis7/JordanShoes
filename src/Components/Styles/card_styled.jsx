@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import breakpoints from "./breakpoint";
 
 export const  Center = css`
   display: flex;
@@ -13,6 +14,11 @@ export const Card = styled.div`
   ${Center}
   flex-direction: column;
   justify-content: space-between;
+      /* TABLET */
+  @media ${breakpoints.gb} {
+    width: 47.1%;
+    height: 31%;
+  }
 `;
 
 export const BoxFigure = styled.figure`
@@ -31,6 +37,10 @@ export const BoxFigure = styled.figure`
     transform: rotate(-30deg) translateZ(0) scale(1.3);
     }
     cursor: pointer;
+       /* TABLET */
+    @media ${breakpoints.gb} {
+      width: 80%;
+    }
   }
 `;
  
@@ -42,18 +52,30 @@ export const BoxText = styled.div`
   justify-content: space-between;
   width: 96%;
   height: 26%;
+     /* TABLET */
+  @media ${breakpoints.gb} {
+    height: 27%;
+  }
 `;
 
 export const Category = styled.p`
   font-size: 0.9rem;
   font-weight: 600;
   color: #000;
+      /* TABLET */
+  @media ${breakpoints.gb} {
+    font-size: 1.2rem;
+  }
 `;
 
 export const Name = styled.p`
   font-size: 0.8rem;
   font-weight: 600;
   color: #b8c8e9;
+      /* TABLET */
+  @media ${breakpoints.gb} {
+    font-size: 1.1rem; 
+  }
 `;
 
 export const Preco = styled.p`
@@ -62,4 +84,8 @@ export const Preco = styled.p`
   font-weight: 500;
   color: #000;
   cursor: pointer;
+  /* TABLET */
+  @media ${breakpoints.gb} {
+    font-size: 1.5rem;
+  }
 `;
