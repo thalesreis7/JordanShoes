@@ -77,7 +77,7 @@ export const BoxThree = styled.div`
     width: 35%;
   }
   @media ${breakpoints.ipadMini} {
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     height: 29vh;
     position: relative;
     right: 14rem;

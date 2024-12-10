@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import breakpoints from "./breakpoint";
 
 export const Center = css`
     display: flex;
@@ -14,7 +15,7 @@ export const FooterFont = css `
 `;
 
 export const Footer = styled.footer`
-    /* border: solid 2px black; */
+    /* border: solid 2px blue; */
     background-color: #111111;
     height: 10vh;
     ${Center}
@@ -29,6 +30,15 @@ export const BoxFooter = styled.div`
     /* flex-direction: column; */
     justify-content: space-between;
     ${FooterFont}
+          /* TABLET */
+    @media ${breakpoints.gb} {
+        width: 54%;
+        font-size: 0.9rem;
+    }
+    @media ${breakpoints.ipadMini}{
+        width: 50%;
+        ${FooterFont}
+    }
 `;
 
 export const BoxCopy = styled.div`
@@ -37,6 +47,15 @@ export const BoxCopy = styled.div`
     height: 26%;
     ${Center}
     ${FooterFont}
+         /* TABLET */
+    @media ${breakpoints.gb} {
+        width: 34%;
+        font-size: 1rem;
+    }
+    @media ${breakpoints.ipadMini}{
+        width: 32%;
+        font-size: 0.9rem;
+    }
 `;
 
 

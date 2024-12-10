@@ -74,7 +74,6 @@ export const BoxCard = styled.section`
             /* TABLET */
     @media ${breakpoints.gb} {
         width: 97%;
-        /* height: 100%; */
-        gap: 3rem;
+        gap: 2rem;
     }
 `;
