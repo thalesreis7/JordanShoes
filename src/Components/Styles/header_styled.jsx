@@ -44,7 +44,7 @@ export const P = styled.p`
   font-size: 0.9rem;
   font-weight: 600;
   position: relative;
-  bottom: 2rem;
+  bottom: 1.3rem;
 `;
 
 export const BoxTwo = styled.div`
@@ -62,7 +62,7 @@ export const BoxThree = styled.div`
   align-items: first baseline;
   justify-content: space-between;
   width: 30vw;
-  height: 30vh;
+  height: 35vh;
   position: relative;
   right: 20rem;
          /* TABLET */
