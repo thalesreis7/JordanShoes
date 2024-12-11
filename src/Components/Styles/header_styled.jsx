@@ -15,7 +15,7 @@ export const Header = styled.header`
   height: 50vh;
         /* TABLET */
   @media ${breakpoints.gb} {
-    height: 22vh;
+    height: 33vh;
   }
   @media ${breakpoints.ipadAir5} {
     /* border: solid black 1px; */
@@ -24,6 +24,11 @@ export const Header = styled.header`
   @media ${breakpoints.ipadMini} {
     height: 24vh;
   }
+      /* SMARTHPHONE */
+  @media ${breakpoints.md} {
+    height: 41vh;
+  }
+ 
 `;
 
 export const BoxOne = styled.div`
@@ -32,10 +37,15 @@ export const BoxOne = styled.div`
   height: 3vh;
          /* TABLET */
   @media ${breakpoints.gb} {
-    height: 18vh;
+    height: 11vh;
+    width: 35%;
   }
   @media ${breakpoints.ipadAir5} {
     height: 20vh;
+  }
+        /* SMARTHPHONE */
+  @media ${breakpoints.md} {
+    height: 2vh;
   }
 `;
 
@@ -45,12 +55,28 @@ export const P = styled.p`
   font-weight: 600;
   position: relative;
   bottom: 1.3rem;
+  /* TABLET */
+  @media ${breakpoints.gb} {
+    font-size: 1.2rem;
+  }
+  /* SMARTHPHONE */
+  @media ${breakpoints.md}  {
+    font-size: 1.2rem;
+  }
 `;
 
 export const BoxTwo = styled.div`
   ${Center}
   img {
     width: 100%;
+    /* TABLET */
+    @media ${breakpoints.gb}{
+      width: 150%;
+    }
+    /* SMARTHPHONE */
+    @media ${breakpoints.md} {
+      width: 350%;
+    }
   }
   position: absolute;
 `;
@@ -83,6 +109,14 @@ export const BoxThree = styled.div`
     right: 14rem;
     bottom: 3rem;
   }
+  /* SMARTHPHONE */
+  @media ${breakpoints.md} {
+    width: 80%;
+    position: relative;
+    right: 1rem;
+    bottom: 2rem;
+    justify-content: center;
+  }
 `;
 
 export const Fig = styled.figcaption`
@@ -92,18 +126,30 @@ export const Fig = styled.figcaption`
   height: 15%;
   img {
     width: 24%;
+       /* SMARTHPHONE */
+    @media ${breakpoints.md}{
+      width: 15%;
+    }
   }
   figcaption {
     font-family: "Archivo", sans-serif;
     font-size: 1rem;
     color: #ffff;
+       /* SMARTHPHONE */
+    @media ${breakpoints.md} {
+      font-size: 1.2rem;
+    }
   }
          /* TABLET */
   @media ${breakpoints.gb} {
-    width: 33%;
+    width: 55%;
   }
   @media ${breakpoints.ipadAir5} {
     width: 43%;
+  }
+      /* SMARTHPHONE */
+  @media ${breakpoints.md}{
+    width: 60%; 
   }
 `;
 
@@ -114,16 +160,27 @@ export const BoxText = styled.div`
   flex-direction: column;
   align-items: first baseline;
   justify-content: space-between;
+  /* TABLET */
+  @media ${breakpoints.gb}{
+    justify-content: space-around;
+  }
   h1 {
     font-size: 1.4rem;
     font-weight: 600;
     color: #ffff;
          /* TABLET */
+    @media ${breakpoints.gb}{
+       font-size: 1.8rem;
+    }
     @media ${breakpoints.ipadAir5}{
         font-size: 1.2rem;
     }
     @media ${breakpoints.ipadMini} {
         font-size: 1rem;
+    }
+        /* SMARTHPHONE */
+    @media ${breakpoints.md} {
+        font-size: 2rem;
     }
   }
   p {
@@ -134,8 +191,8 @@ export const BoxText = styled.div`
     bottom: 4rem;
          /* TABLET */
     @media ${breakpoints.gb} {
-      width: 84%;
-      font-size: 0.8rem;
+      width: 91%;
+      font-size: 0.9rem;
       position: relative;
       bottom: 2rem;
     }

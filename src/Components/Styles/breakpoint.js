@@ -1,7 +1,9 @@
 const size = {
+    // TABLET
     gb: '1024px',
     ipadAir5: '820px',
     ipadMini: '768px',
+    // SMARTPHONES
     md: '440px',
     sm: '390px'
 }

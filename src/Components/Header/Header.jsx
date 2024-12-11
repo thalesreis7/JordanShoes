@@ -17,7 +17,7 @@ export default function Header() {
                     <figcaption>JordanShoes</figcaption>
                 </S.Fig>
                 <S.BoxText>
-                    <h1>A melhor loja de Jordan do país</h1>
+                    <h1>A melhor loja de Jordan</h1>
                     <p>O tênis Jordan é fruto de uma velha e forte pareceria entre a Nike e o jogador Michael Jordan.</p>
                 </S.BoxText>
               </S.BoxThree>
