@@ -30,14 +30,10 @@ export const BoxFooter = styled.div`
     /* flex-direction: column; */
     justify-content: space-between;
     ${FooterFont}
-          /* TABLET */
-    @media ${breakpoints.gb} {
-        width: 54%;
-        font-size: 0.9rem;
-    }
-    @media ${breakpoints.ipadMini}{
-        width: 50%;
-        ${FooterFont}
+    /* TABLETS */
+    @media ${breakpoints.XL}{
+        width: 58%;
+        font-size: 1rem;
     }
 `;
 
@@ -47,15 +43,12 @@ export const BoxCopy = styled.div`
     height: 26%;
     ${Center}
     ${FooterFont}
-         /* TABLET */
-    @media ${breakpoints.gb} {
-        width: 34%;
+    /* TABLET */
+    @media ${breakpoints.XL}{
+        width: 33%;
         font-size: 1rem;
     }
-    @media ${breakpoints.ipadMini}{
-        width: 32%;
-        font-size: 0.9rem;
-    }
+   
 `;
 
 
