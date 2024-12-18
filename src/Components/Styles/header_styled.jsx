@@ -17,6 +17,10 @@ export const Header = styled.header`
   @media ${breakpoints.XL}{
     height: 21vh;
   }
+  /* MOBILE */
+  @media ${breakpoints.Mxl}{
+    height: 23vh;
+  }
 `;
 
 export const BoxOne = styled.div`
@@ -33,6 +37,10 @@ export const BoxOne = styled.div`
   @media ${breakpoints.SM} {
     height: 15.4vh;   
   }
+  /* MOBILE */
+  @media ${breakpoints.Mxl}{
+    height: 10vh;
+  }
 `;
 
 export const P = styled.p`
@@ -41,12 +49,20 @@ export const P = styled.p`
   font-weight: 600;
   position: relative;
   bottom: 1.3rem;
+  /* MOBILE */
+  @media ${breakpoints.Mxl}{
+    bottom: 0.5rem;
+  }
 `;
 
 export const BoxTwo = styled.div`
   ${Center}
   img {
     width: 100%;
+    /* MOBILE */
+    @media ${breakpoints.Mxl}{
+      width: 78vh;
+    }
   }
   position: absolute;
 `;
@@ -67,6 +83,13 @@ export const BoxThree = styled.div`
     bottom: 1rem;
     width: 50%;
   }
+  /* MOBILE */
+  @media ${breakpoints.Mxl}{
+    width: 70%;
+    right: 2rem;
+    bottom: 0.5rem;
+    /* height: 15vh; */
+  }
 `;
 
 export const Fig = styled.figcaption`
@@ -77,6 +100,10 @@ export const Fig = styled.figcaption`
   /* TABLETS */
   @media ${breakpoints.XL} {
     width: 39%;
+  }
+  /* MOBILE */
+  @media ${breakpoints.Mxl}{
+    width: 60%;
   }
   img {
     width: 24%;
@@ -111,6 +138,10 @@ export const BoxText = styled.div`
     @media ${breakpoints.XL}{
       font-size: 1.8rem;
     }
+    /* MOBILE */
+    @media ${breakpoints.Mxl}{
+      font-size: 1.5rem;
+    }
   }
   p {
     font-size: 1.1rem;
@@ -129,6 +160,11 @@ export const BoxText = styled.div`
     @media ${breakpoints.SM} {
       font-size: 1rem;
       bottom: 1rem;
+    }
+    /* MOBILE */
+    @media ${breakpoints.Mxl}{
+      font-size: 0.9rem;
+      bottom: 2rem;
     }
   }
 `;
