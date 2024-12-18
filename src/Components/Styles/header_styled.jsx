@@ -27,6 +27,12 @@ export const BoxOne = styled.div`
   @media ${breakpoints.XL}{
     height: 12vh;
   }
+  @media ${breakpoints.MD}{
+    height: 15vh;
+  }
+  @media ${breakpoints.SM} {
+    height: 15.4vh;   
+  }
 `;
 
 export const P = styled.p`
@@ -116,6 +122,13 @@ export const BoxText = styled.div`
     @media ${breakpoints.XL}{
       font-size: 1.2rem;
       bottom: 2rem;
+    }
+    @media ${breakpoints.MD}{
+      font-size: 1.1rem;
+    }
+    @media ${breakpoints.SM} {
+      font-size: 1rem;
+      bottom: 1rem;
     }
   }
 `;

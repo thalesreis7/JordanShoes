@@ -48,6 +48,9 @@ export const BoxCopy = styled.div`
         width: 33%;
         font-size: 1rem;
     }
+    @media ${breakpoints.SM} {
+        width: 38%;
+    }
    
 `;
 

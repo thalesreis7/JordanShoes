@@ -57,6 +57,9 @@ export const BoxText = styled.div`
         @media ${breakpoints.XL}{
             font-size: 1.5rem;
         }
+        @media ${breakpoints.MD} {
+            font-size: 1.3rem;
+        }
     }
 `;
 
