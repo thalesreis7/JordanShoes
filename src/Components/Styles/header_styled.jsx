@@ -21,6 +21,9 @@ export const Header = styled.header`
   @media ${breakpoints.Mxl}{
     height: 23vh;
   }
+  @media (max-width: 430px) and (min-width: 393px) {
+    width: 100%;
+  }
 `;
 
 export const BoxOne = styled.div`
@@ -43,6 +46,9 @@ export const BoxOne = styled.div`
     position: relative;
     left: 5rem;
   }
+  @media (max-width: 430px) and (min-width: 393px) {
+    left: 0rem;
+  }
 `;
 
 export const P = styled.p`
@@ -64,6 +70,9 @@ export const BoxTwo = styled.div`
     width: 100%;
     /* MOBILE */
     @media ${breakpoints.Mxl}{
+      width: 78vh;
+    }
+    @media (max-width: 430px) and (min-width: 393px) {
       width: 78vh;
     }
   }
@@ -142,7 +151,7 @@ export const BoxText = styled.div`
     }
     /* MOBILE */
     @media ${breakpoints.Mxl}{
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
   }
   p {

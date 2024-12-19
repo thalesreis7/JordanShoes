@@ -1,11 +1,11 @@
+// SPECIFIC SIZE RESOLUTION
 const size = {
     // Tablets
     XL: '884px',
     MD: '840px',
     SM: '780px',
     // MOBILE
-    Mxl: '440px',
-    
+    Mxl: '440px',    
 }
 
 const breakpoints = {

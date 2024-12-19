@@ -15,6 +15,13 @@ export const Main = styled.main`
         width: 135vw;
         height: 338vh;
     }
+    @media (max-width: 430px) and (min-width: 393px) {
+        width: 94vw;
+    }
+    @media (min-width: 412px) and (max-width: 428px) {
+        width: 101vw;
+        height: 340vh;
+    }
 `;
 
 export const MainBox = styled.section`
@@ -40,6 +47,10 @@ export const BoxText = styled.div`
     @media ${breakpoints.XL}{
         width: 87%;
     }
+    /* MOBILE */
+    @media (max-width: 430px) and (min-width: 393px){
+        width: 97%;
+    }
     h1{
         font-size: 1.4rem;
         font-weight: 600;
@@ -54,6 +65,12 @@ export const BoxText = styled.div`
       @media ${breakpoints.Mxl}{
         position: relative;
         top: 1rem;
+      }
+      @media (max-width: 430px) and (min-width: 393px) {
+        font-size: 1.4rem;
+      }
+      @media (min-width: 412px) and (max-width: 428px) {
+        font-size: 1.5rem;
       }
     }
     p{
@@ -70,6 +87,10 @@ export const BoxText = styled.div`
         @media ${breakpoints.MD} {
             font-size: 1.3rem;
         }
+        /* MOBILE */
+        /* @media (max-width: 430px) and (min-width: 393px) {
+            font-size: 1.4rem;
+        } */
     }
 `;
 

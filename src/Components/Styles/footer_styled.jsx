@@ -25,6 +25,14 @@ export const Footer = styled.footer`
         width: 135vw;
         height: 18vh;
     }
+    @media ${breakpoints.Mxl}{
+        flex-direction: column;
+        width: 100vw;
+        height: 20vh;
+    }
+    @media (max-width: 430px) and (min-width: 393px){
+        height: 30vh;
+    }
 `;
 
 export const BoxFooter = styled.div`
@@ -67,7 +75,12 @@ export const BoxCopy = styled.div`
         height: 50%;
         font-size: 1.4rem;
     }
-   
+    @media (max-width: 430px) and (min-width: 393px){
+        width: 80%;
+        height: 15%;
+        font-size: 1.1rem;
+        ${Center}
+    }
 `;
 
 
