@@ -20,6 +20,11 @@ export const Footer = styled.footer`
     height: 10vh;
     ${Center}
     justify-content: space-around;
+    /* MOBILE */
+    @media ${breakpoints.Mxl}{
+        width: 135vw;
+        height: 18vh;
+    }
 `;
 
 export const BoxFooter = styled.div`
@@ -34,6 +39,12 @@ export const BoxFooter = styled.div`
     @media ${breakpoints.XL}{
         width: 58%;
         font-size: 1rem;
+    }
+    /* MOBILE */
+    @media ${breakpoints.Mxl}{
+        flex-direction: column;
+        height: 70%;
+        font-size: 1.4rem;
     }
 `;
 
@@ -50,6 +61,11 @@ export const BoxCopy = styled.div`
     }
     @media ${breakpoints.SM} {
         width: 38%;
+    }
+    /* MOBILE */
+    @media ${breakpoints.Mxl}{
+        height: 50%;
+        font-size: 1.4rem;
     }
    
 `;

@@ -39,7 +39,9 @@ export const BoxOne = styled.div`
   }
   /* MOBILE */
   @media ${breakpoints.Mxl}{
-    height: 10vh;
+    height: 12vh;
+    position: relative;
+    left: 5rem;
   }
 `;
 
@@ -51,7 +53,8 @@ export const P = styled.p`
   bottom: 1.3rem;
   /* MOBILE */
   @media ${breakpoints.Mxl}{
-    bottom: 0.5rem;
+    bottom: 0.8rem;
+    font-size: 1.4rem;
   }
 `;
 
@@ -88,7 +91,6 @@ export const BoxThree = styled.div`
     width: 70%;
     right: 2rem;
     bottom: 0.5rem;
-    /* height: 15vh; */
   }
 `;
 

@@ -19,6 +19,11 @@ export const Card = styled.div`
     width: 46%;
     height: 29%;
   }
+  /* MOBILE */
+  @media ${breakpoints.Mxl}{
+    width: 100%;
+    height: 51%;
+  }
 `;
 
 export const BoxFigure = styled.figure`
@@ -62,6 +67,10 @@ export const Category = styled.p`
   @media ${breakpoints.XL} {
     font-size: 1.2rem;
   }
+  /* MOBILE */
+  @media ${breakpoints.Mxl}{
+    font-size: 1.6rem;
+  }
 `;
 
 export const Name = styled.p`
@@ -71,6 +80,10 @@ export const Name = styled.p`
   /* TABLETS */
   @media ${breakpoints.XL}{
     font-size: 1.1rem;
+  }
+  /* MOBILE */
+  @media ${breakpoints.Mxl}{
+    font-size: 1.4rem;
   }
 `;
 
@@ -84,5 +97,9 @@ export const Preco = styled.p`
   @media ${breakpoints.XL} {
     font-size: 1.4rem;
     font-weight: 600;
+  }
+  /* MOBILE */
+  @media ${breakpoints.Mxl}{
+    font-size: 1.7rem;
   }
 `;

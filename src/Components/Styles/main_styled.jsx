@@ -10,6 +10,11 @@ export const Center = css `
 export const Main = styled.main`
     /* border: solid 3px purple; */
     height: 119vh;
+    /* MOBILE */
+    @media ${breakpoints.Mxl} {
+        width: 135vw;
+        height: 338vh;
+    }
 `;
 
 export const MainBox = styled.section`
@@ -45,6 +50,11 @@ export const BoxText = styled.div`
         position: relative;
         top: 2rem;
       }
+      /* MOBILE */
+      @media ${breakpoints.Mxl}{
+        position: relative;
+        top: 1rem;
+      }
     }
     p{
         /* border: solid 1px; */
@@ -76,5 +86,9 @@ export const BoxCard = styled.section`
         width: 90%;
         flex-wrap: wrap;
         gap: 2.5rem;
+    }
+    /* MOBILE */
+    @media ${breakpoints.Mxl}{
+        gap: 2.7rem;
     }
 `;
