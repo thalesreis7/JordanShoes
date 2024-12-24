@@ -12,17 +12,10 @@ export const Header = styled.header`
   ${Center}
   flex-direction: column;
   justify-content: space-evenly;
-  height: 50vh; 
+  height: 50vh;
   /* TABLETS */
-  @media ${breakpoints.XL}{
-    height: 21vh;
-  }
-  /* MOBILE */
-  @media ${breakpoints.Mxl}{
-    height: 23vh;
-  }
-  @media (max-width: 430px) and (min-width: 393px) {
-    width: 100%;
+  @media (max-width: 884px){
+    height: 22vh;
   }
 `;
 
@@ -30,25 +23,6 @@ export const BoxOne = styled.div`
   /* border: solid 1px green; */
   ${Center}
   height: 3vh;
-  /* TABLETS */
-  @media ${breakpoints.XL}{
-    height: 12vh;
-  }
-  @media ${breakpoints.MD}{
-    height: 15vh;
-  }
-  @media ${breakpoints.SM} {
-    height: 15.4vh;   
-  }
-  /* MOBILE */
-  @media ${breakpoints.Mxl}{
-    height: 12vh;
-    position: relative;
-    left: 5rem;
-  }
-  @media (max-width: 430px) and (min-width: 393px) {
-    left: 0rem;
-  }
 `;
 
 export const P = styled.p`
@@ -57,10 +31,10 @@ export const P = styled.p`
   font-weight: 600;
   position: relative;
   bottom: 1.3rem;
-  /* MOBILE */
-  @media ${breakpoints.Mxl}{
-    bottom: 0.8rem;
-    font-size: 1.4rem;
+  /* TABLETS */
+  @media (max-width: 884px){
+    bottom: 0.4rem;
+    font-size: 1.2rem;
   }
 `;
 
@@ -68,13 +42,6 @@ export const BoxTwo = styled.div`
   ${Center}
   img {
     width: 100%;
-    /* MOBILE */
-    @media ${breakpoints.Mxl}{
-      width: 78vh;
-    }
-    @media (max-width: 430px) and (min-width: 393px) {
-      width: 78vh;
-    }
   }
   position: absolute;
 `;
@@ -90,16 +57,10 @@ export const BoxThree = styled.div`
   position: relative;
   right: 20rem;
   /* TABLETS */
-  @media ${breakpoints.XL} {
-    right: 11rem;
-    bottom: 1rem;
-    width: 50%;
-  }
-  /* MOBILE */
-  @media ${breakpoints.Mxl}{
-    width: 70%;
-    right: 2rem;
-    bottom: 0.5rem;
+  @media (max-width: 884px){
+    right: 12rem;
+    width: 44%;
+    height: 80%;
   }
 `;
 
@@ -108,28 +69,13 @@ export const Fig = styled.figcaption`
   ${Center}
   width: 35%;
   height: 15%;
-  /* TABLETS */
-  @media ${breakpoints.XL} {
-    width: 39%;
-  }
-  /* MOBILE */
-  @media ${breakpoints.Mxl}{
-    width: 60%;
-  }
-  img {
-    width: 24%;
-  /* TABLETS */
-  @media ${breakpoints.XL}{
-    width: 32%;
-  }
-  }
   figcaption {
     font-family: "Archivo", sans-serif;
     font-size: 1rem;
     color: #ffff;
     /* TABLETS */
-    @media ${breakpoints.XL}{
-      font-size: 1.4rem;
+    @media (max-width: 884px){
+        font-size: 1rem;
     }
   }  
 `;
@@ -145,14 +91,6 @@ export const BoxText = styled.div`
     font-size: 1.4rem;
     font-weight: 600;
     color: #ffff;
-    /* TABLETS */
-    @media ${breakpoints.XL}{
-      font-size: 1.8rem;
-    }
-    /* MOBILE */
-    @media ${breakpoints.Mxl}{
-      font-size: 1.4rem;
-    }
   }
   p {
     font-size: 1.1rem;
@@ -161,20 +99,7 @@ export const BoxText = styled.div`
     position: relative;
     bottom: 4rem;
     /* TABLETS */
-    @media ${breakpoints.XL}{
-      font-size: 1.2rem;
-      bottom: 2rem;
-    }
-    @media ${breakpoints.MD}{
-      font-size: 1.1rem;
-    }
-    @media ${breakpoints.SM} {
-      font-size: 1rem;
-      bottom: 1rem;
-    }
-    /* MOBILE */
-    @media ${breakpoints.Mxl}{
-      font-size: 0.9rem;
+    @media (max-width: 884px) {
       bottom: 2rem;
     }
   }

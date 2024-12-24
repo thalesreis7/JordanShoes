@@ -20,19 +20,6 @@ export const Footer = styled.footer`
     height: 10vh;
     ${Center}
     justify-content: space-around;
-    /* MOBILE */
-    @media ${breakpoints.Mxl}{
-        width: 135vw;
-        height: 18vh;
-    }
-    @media ${breakpoints.Mxl}{
-        flex-direction: column;
-        width: 100vw;
-        height: 20vh;
-    }
-    @media (max-width: 430px) and (min-width: 393px){
-        height: 30vh;
-    }
 `;
 
 export const BoxFooter = styled.div`
@@ -43,17 +30,6 @@ export const BoxFooter = styled.div`
     /* flex-direction: column; */
     justify-content: space-between;
     ${FooterFont}
-    /* TABLETS */
-    @media ${breakpoints.XL}{
-        width: 58%;
-        font-size: 1rem;
-    }
-    /* MOBILE */
-    @media ${breakpoints.Mxl}{
-        flex-direction: column;
-        height: 70%;
-        font-size: 1.4rem;
-    }
 `;
 
 export const BoxCopy = styled.div`
@@ -62,25 +38,6 @@ export const BoxCopy = styled.div`
     height: 26%;
     ${Center}
     ${FooterFont}
-    /* TABLET */
-    @media ${breakpoints.XL}{
-        width: 33%;
-        font-size: 1rem;
-    }
-    @media ${breakpoints.SM} {
-        width: 38%;
-    }
-    /* MOBILE */
-    @media ${breakpoints.Mxl}{
-        height: 50%;
-        font-size: 1.4rem;
-    }
-    @media (max-width: 430px) and (min-width: 393px){
-        width: 80%;
-        height: 15%;
-        font-size: 1.1rem;
-        ${Center}
-    }
 `;
 
 
