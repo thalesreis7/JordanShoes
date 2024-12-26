@@ -58,8 +58,8 @@ export const BoxThree = styled.div`
   right: 20rem;
   /* TABLETS */
   @media (max-width: 884px){
-    right: 12rem;
-    width: 44%;
+    right: 9rem;
+    width: 49%;
     height: 80%;
   }
 `;
@@ -69,13 +69,17 @@ export const Fig = styled.figcaption`
   ${Center}
   width: 35%;
   height: 15%;
+  /* TABLETS */
+  @media (max-width: 884px) {
+    width: 50%;
+  }
   figcaption {
     font-family: "Archivo", sans-serif;
     font-size: 1rem;
     color: #ffff;
     /* TABLETS */
     @media (max-width: 884px){
-        font-size: 1rem;
+        font-size: 2rem;
     }
   }  
 `;
@@ -91,6 +95,10 @@ export const BoxText = styled.div`
     font-size: 1.4rem;
     font-weight: 600;
     color: #ffff;
+    /* TABLETS */
+    @media (max-width: 884px){
+       font-size: 2rem;
+    }
   }
   p {
     font-size: 1.1rem;
@@ -100,7 +108,8 @@ export const BoxText = styled.div`
     bottom: 4rem;
     /* TABLETS */
     @media (max-width: 884px) {
-      bottom: 2rem;
+      font-size: 1.3rem;
+      bottom: 1.8rem;
     }
   }
 `;

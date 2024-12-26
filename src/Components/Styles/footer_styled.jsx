@@ -30,6 +30,10 @@ export const BoxFooter = styled.div`
     /* flex-direction: column; */
     justify-content: space-between;
     ${FooterFont}
+    @media (max-width: 884px){
+        width: 52%;
+        font-size: 0.9rem;
+    }
 `;
 
 export const BoxCopy = styled.div`
@@ -38,6 +42,10 @@ export const BoxCopy = styled.div`
     height: 26%;
     ${Center}
     ${FooterFont}
+    @media (max-width: 884px){
+        width: 27%;
+        font-size: 1.1rem;
+    }
 `;
 
 

@@ -14,6 +14,10 @@ export const Card = styled.div`
   ${Center}
   flex-direction: column;
   justify-content: space-between;
+  @media (max-width: 884px){
+    height: 33%;
+    width: 47%;
+  }
 `;
 
 export const BoxFigure = styled.figure`
@@ -49,12 +53,18 @@ export const Category = styled.p`
   font-size: 0.9rem;
   font-weight: 600;
   color: #000;
+  @media (max-width: 884px){
+    font-size: 1.1rem;
+  }
 `;
 
 export const Name = styled.p`
   font-size: 0.8rem;
   font-weight: 600;
   color: #b8c8e9;
+  @media (max-width: 884px){
+    font-size: 1rem;
+  }
 `;
 
 export const Preco = styled.p`
@@ -63,4 +73,8 @@ export const Preco = styled.p`
   font-weight: 500;
   color: #000;
   cursor: pointer;
+  @media (max-width: 884px){
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
 `;
