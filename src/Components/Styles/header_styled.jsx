@@ -17,6 +17,9 @@ export const Header = styled.header`
   @media (max-width: 884px){
     height: 22vh;
   }
+  @media (max-width: 800px){
+    height: 30vh;
+  }
 `;
 
 export const BoxOne = styled.div`
@@ -38,6 +41,9 @@ export const P = styled.p`
   }
   @media (max-width: 800px){
     font-size: 2rem;
+  }
+  @media (max-width: 768px){
+   bottom: 0.2rem; 
   }
 `;
 
@@ -83,6 +89,10 @@ export const Fig = styled.figcaption`
   @media (max-width: 800px){
     width: 60%;
   }
+  @media (max-width: 768px){
+   position: relative;
+   top: 1.2rem; 
+  }
   figcaption {
     font-family: "Archivo", sans-serif;
     font-size: 1rem;
@@ -120,6 +130,9 @@ export const BoxText = styled.div`
     @media (max-width: 884px) {
       font-size: 1.3rem;
       bottom: 1.8rem;
+    }
+    @media (max-width: 768px){
+      bottom: 2.5rem;
     }
   }
 `;

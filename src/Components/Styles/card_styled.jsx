@@ -8,7 +8,7 @@ export const  Center = css`
 `;
 
 export const Card = styled.div`
-  border: solid 1px blue;
+  /* border: solid 1px blue; */
   width: 30%;
   height: 47%;
   ${Center}

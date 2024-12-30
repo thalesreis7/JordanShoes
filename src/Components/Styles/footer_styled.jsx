@@ -23,7 +23,7 @@ export const Footer = styled.footer`
 `;
 
 export const BoxFooter = styled.div`
-    border: solid 1px orange;
+    /* border: solid 1px orange; */
     height: 26%;
     width: 42%;
     ${Center}
@@ -41,7 +41,7 @@ export const BoxFooter = styled.div`
 `;
 
 export const BoxCopy = styled.div`
-    border: solid 1px orange;
+    /* border: solid 1px orange; */
     width: 20%;
     height: 26%;
     ${Center}
