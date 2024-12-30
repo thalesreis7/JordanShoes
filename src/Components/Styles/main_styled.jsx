@@ -54,6 +54,9 @@ export const BoxText = styled.div`
         @media (max-width: 884px){
             font-size: 1.4rem;
         }
+        @media (max-width: 800px){
+            font-size: 1.5rem;
+        }
     }
 `;
 

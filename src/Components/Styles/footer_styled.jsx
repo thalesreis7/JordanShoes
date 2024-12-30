@@ -23,7 +23,7 @@ export const Footer = styled.footer`
 `;
 
 export const BoxFooter = styled.div`
-    /* border: solid 1px orange; */
+    border: solid 1px orange;
     height: 26%;
     width: 42%;
     ${Center}
@@ -34,10 +34,14 @@ export const BoxFooter = styled.div`
         width: 52%;
         font-size: 0.9rem;
     }
+    @media (max-width: 800px){
+        width: 65%;
+        font-size: 1rem;        
+    }
 `;
 
 export const BoxCopy = styled.div`
-    /* border: solid 1px orange; */
+    border: solid 1px orange;
     width: 20%;
     height: 26%;
     ${Center}
@@ -45,6 +49,9 @@ export const BoxCopy = styled.div`
     @media (max-width: 884px){
         width: 27%;
         font-size: 1.1rem;
+    }
+    @media (max-width: 800px){
+        font-size: 1.2rem;        
     }
 `;
 

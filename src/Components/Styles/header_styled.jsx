@@ -36,6 +36,9 @@ export const P = styled.p`
     bottom: 0.4rem;
     font-size: 1.2rem;
   }
+  @media (max-width: 800px){
+    font-size: 2rem;
+  }
 `;
 
 export const BoxTwo = styled.div`
@@ -62,6 +65,10 @@ export const BoxThree = styled.div`
     width: 49%;
     height: 80%;
   }
+  @media (max-width: 800px){
+    height: 70%;
+    bottom: 0.8rem;
+  }
 `;
 
 export const Fig = styled.figcaption`
@@ -72,6 +79,9 @@ export const Fig = styled.figcaption`
   /* TABLETS */
   @media (max-width: 884px) {
     width: 50%;
+  }
+  @media (max-width: 800px){
+    width: 60%;
   }
   figcaption {
     font-family: "Archivo", sans-serif;

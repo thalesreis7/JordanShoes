@@ -8,7 +8,7 @@ export const  Center = css`
 `;
 
 export const Card = styled.div`
-  /* border: solid 1px blue; */
+  border: solid 1px blue;
   width: 30%;
   height: 47%;
   ${Center}
@@ -56,6 +56,9 @@ export const Category = styled.p`
   @media (max-width: 884px){
     font-size: 1.1rem;
   }
+  @media (max-width: 800px){
+    font-size: 1.2rem;          
+  }
 `;
 
 export const Name = styled.p`
@@ -76,5 +79,8 @@ export const Preco = styled.p`
   @media (max-width: 884px){
     font-size: 1.3rem;
     font-weight: bold;
+  }
+  @media (max-width: 800px){
+    font-size: 1.4rem;
   }
 `;
