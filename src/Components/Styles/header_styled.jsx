@@ -20,6 +20,9 @@ export const Header = styled.header`
   @media (max-width: 800px){
     height: 30vh;
   }
+  @media (max-width: 440px) and (min-width: 430px){
+    height: 18vh;
+  }
 `;
 
 export const BoxOne = styled.div`
@@ -44,6 +47,9 @@ export const P = styled.p`
   }
   @media (max-width: 768px){
    bottom: 0.2rem; 
+  }
+  @media (max-width: 440px) and (min-width: 430px){
+    font-size: 1.2rem;
   }
 `;
 
@@ -75,10 +81,14 @@ export const BoxThree = styled.div`
     height: 70%;
     bottom: 0.8rem;
   }
+  @media (max-width: 440px) and (min-width: 430px){
+    left: 0.3rem;
+    width: 95%;
+  }
 `;
 
 export const Fig = styled.figcaption`
-  /* border: solid 1px blue;   */
+  /* border: solid 1px blue;  */
   ${Center}
   width: 35%;
   height: 15%;
@@ -93,13 +103,21 @@ export const Fig = styled.figcaption`
    position: relative;
    top: 1.2rem; 
   }
+  @media (max-width: 440px) and (min-width: 430px){
+    width: 43%;
+    position: relative;
+    top: 0.7rem;     
+  }
   figcaption {
     font-family: "Archivo", sans-serif;
     font-size: 1rem;
     color: #ffff;
     /* TABLETS */
     @media (max-width: 884px){
-        font-size: 2rem;
+      font-size: 2rem;
+    }
+    @media (max-width: 440px) and (min-width: 430px){
+      font-size: 1.2rem;
     }
   }  
 `;
@@ -119,6 +137,9 @@ export const BoxText = styled.div`
     @media (max-width: 884px){
        font-size: 2rem;
     }
+    @media (max-width: 440px) and (min-width: 430px){
+      font-size: 1.5rem;    
+    }
   }
   p {
     font-size: 1.1rem;
@@ -133,6 +154,10 @@ export const BoxText = styled.div`
     }
     @media (max-width: 768px){
       bottom: 2.5rem;
+    }
+    @media (max-width: 440px) and (min-width: 430px){
+      font-size: 1.1rem;
+      bottom: 1.2rem;    
     }
   }
 `;
