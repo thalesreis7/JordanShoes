@@ -13,6 +13,9 @@ export const Main = styled.main`
     @media (max-width: 884px){
         height: 133vh;
     }
+    @media (max-width: 440px) and (min-width: 430px){
+        height: 241vh;
+    }
 `;
 
 export const MainBox = styled.section`
@@ -36,12 +39,18 @@ export const BoxText = styled.div`
         @media (max-width: 884px){
             width: 70%;
         }
+        @media (max-width: 440px) and (min-width: 430px){
+            width: 91%;
+        }
     h1{
         font-size: 1.4rem;
         font-weight: 600;
         color: #121214;
         @media (max-width: 884px){
             font-size: 2.3rem;
+        }
+        @media (max-width: 440px) and (min-width: 430px){
+            font-size: 1.8rem;
         }
     }
     p{
