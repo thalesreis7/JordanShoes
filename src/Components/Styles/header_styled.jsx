@@ -7,8 +7,16 @@ export const Center = css`
   justify-content: center;
 `;
 
+export const MediaHeigth = css`
+  height: 18vh;
+`
+export const MediaQueries1 = css`
+  left: 0.3rem;
+  width: 95%;
+`
+
 export const Header = styled.header`
-  /* border: solid 1px blue; */
+  border: solid 1px blue;
   ${Center}
   flex-direction: column;
   justify-content: space-evenly;
@@ -21,7 +29,10 @@ export const Header = styled.header`
     height: 30vh;
   }
   @media (max-width: 440px) and (min-width: 430px){
-    height: 18vh;
+    ${MediaHeigth}
+  }
+  @media (max-width: 428px) and (min-width: 393px){
+    ${MediaHeigth}
   }
 `;
 
@@ -32,7 +43,7 @@ export const BoxOne = styled.div`
 `;
 
 export const P = styled.p`
-  /* border: solid 1px red; */
+  border: solid 1px red;
   font-size: 0.9rem;
   font-weight: 600;
   position: relative;
@@ -51,6 +62,9 @@ export const P = styled.p`
   @media (max-width: 440px) and (min-width: 430px){
     font-size: 1.2rem;
   }
+  @media (max-width: 428px) and (min-width: 393px){
+    font-size: 1.2rem;
+  }
 `;
 
 export const BoxTwo = styled.div`
@@ -62,7 +76,7 @@ export const BoxTwo = styled.div`
 `;
 
 export const BoxThree = styled.div`
-  /* border: solid 1px black; */
+  border: solid 1px black;
   ${Center}
   flex-direction: column;
   align-items: first baseline;
@@ -82,10 +96,14 @@ export const BoxThree = styled.div`
     bottom: 0.8rem;
   }
   @media (max-width: 440px) and (min-width: 430px){
-    left: 0.3rem;
-    width: 95%;
+    ${MediaQueries1}
+  }
+  @media (max-width: 428px) and (min-width: 393px){
+    ${MediaQueries1}
   }
 `;
+
+// APARTIR DAQUI
 
 export const Fig = styled.figcaption`
   /* border: solid 1px blue;  */
@@ -107,6 +125,11 @@ export const Fig = styled.figcaption`
     width: 43%;
     position: relative;
     top: 0.7rem;     
+  }
+  @media (max-width: 428px) and (min-width: 393px){
+    width: 43%;
+    position: relative;
+    top: 43%;
   }
   figcaption {
     font-family: "Archivo", sans-serif;
