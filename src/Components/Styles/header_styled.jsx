@@ -16,7 +16,7 @@ export const MediaQueries1 = css`
 `
 
 export const Header = styled.header`
-  border: solid 1px blue;
+  /* border: solid 1px blue; */
   ${Center}
   flex-direction: column;
   justify-content: space-evenly;
@@ -43,7 +43,7 @@ export const BoxOne = styled.div`
 `;
 
 export const P = styled.p`
-  border: solid 1px red;
+  /* border: solid 1px red; */
   font-size: 0.9rem;
   font-weight: 600;
   position: relative;
@@ -76,7 +76,7 @@ export const BoxTwo = styled.div`
 `;
 
 export const BoxThree = styled.div`
-  border: solid 1px black;
+  /* border: solid 1px black; */
   ${Center}
   flex-direction: column;
   align-items: first baseline;
@@ -103,8 +103,6 @@ export const BoxThree = styled.div`
   }
 `;
 
-// APARTIR DAQUI
-
 export const Fig = styled.figcaption`
   /* border: solid 1px blue;  */
   ${Center}
@@ -127,9 +125,10 @@ export const Fig = styled.figcaption`
     top: 0.7rem;     
   }
   @media (max-width: 428px) and (min-width: 393px){
-    width: 43%;
+    width: 30%;
     position: relative;
-    top: 43%;
+    top: 15%;
+    left: 2%;
   }
   figcaption {
     font-family: "Archivo", sans-serif;
@@ -141,6 +140,9 @@ export const Fig = styled.figcaption`
     }
     @media (max-width: 440px) and (min-width: 430px){
       font-size: 1.2rem;
+    }
+    @media (max-width: 428px) and (min-width: 393px){
+      font-size: 1.3rem;
     }
   }  
 `;
@@ -163,6 +165,9 @@ export const BoxText = styled.div`
     @media (max-width: 440px) and (min-width: 430px){
       font-size: 1.5rem;    
     }
+    @media (max-width: 428px) and (min-width: 393px){
+      font-size: 1.4rem;
+    }
   }
   p {
     font-size: 1.1rem;
@@ -181,6 +186,10 @@ export const BoxText = styled.div`
     @media (max-width: 440px) and (min-width: 430px){
       font-size: 1.1rem;
       bottom: 1.2rem;    
+    }
+    @media (max-width: 428px) and (min-width: 393px){
+      font-size: 1.1rem;
+      bottom: 1rem;
     }
   }
 `;

@@ -7,6 +7,14 @@ export const Center = css `
     justify-content: center;
 `;
 
+export const MediaHeightMain = css`
+    height: 241vh;
+`;
+
+export const WidthBoxTex = css`
+    width: 91%;
+`;
+
 export const Main = styled.main`
     /* border: solid 4px purple; */
     height: 119vh;
@@ -14,7 +22,10 @@ export const Main = styled.main`
         height: 133vh;
     }
     @media (max-width: 440px) and (min-width: 430px){
-        height: 241vh;
+        ${MediaHeightMain}
+    }
+    @media (max-width: 428px) and (min-width: 393px){
+        ${MediaHeightMain}
     }
 `;
 
@@ -40,7 +51,10 @@ export const BoxText = styled.div`
             width: 70%;
         }
         @media (max-width: 440px) and (min-width: 430px){
-            width: 91%;
+            ${WidthBoxTex}
+        }
+        @media (max-width: 428px) and (min-width: 393px){
+            ${WidthBoxTex}
         }
     h1{
         font-size: 1.4rem;
@@ -49,7 +63,7 @@ export const BoxText = styled.div`
         @media (max-width: 884px){
             font-size: 2.3rem;
         }
-        @media (max-width: 440px) and (min-width: 430px){
+        @media (max-width: 440px) and (min-width: 393px){
             font-size: 1.8rem;
         }
     }
@@ -65,6 +79,9 @@ export const BoxText = styled.div`
         }
         @media (max-width: 800px){
             font-size: 1.5rem;
+        }
+        @media (max-width: 428px) and (min-width: 393px){
+           font-size: 1.2rem; 
         }
     }
 `;
