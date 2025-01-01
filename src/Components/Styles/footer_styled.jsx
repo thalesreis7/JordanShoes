@@ -20,18 +20,17 @@ export const Footer = styled.footer`
     height: 10vh;
     ${Center}
     justify-content: space-around;
-    @media (max-width: 440px) and (min-width: 393px){
+    @media (max-width: 440px) and (min-width: 360px){
         height: 20vh;
         /* flex-direction: column; */
     }
 `;
 
 export const BoxFooter = styled.div`
-    /* border: solid 1px orange;     */
+    /* border: solid 1px orange; */
     height: 26%;
     width: 42%;
     ${Center}
-    /* flex-direction: column; */
     justify-content: space-between;
     ${FooterFont}
     @media (max-width: 884px){
@@ -45,6 +44,12 @@ export const BoxFooter = styled.div`
     @media (max-width: 440px) and (min-width: 393px){
         flex-direction: column;
         width: 40%;
+        height: 60%;
+        font-size: 1rem;
+    }
+    @media (max-width: 390px) and (min-width: 360px){
+        flex-direction: column;
+        width: 47%;
         height: 60%;
         font-size: 1rem;
     }
@@ -63,7 +68,7 @@ export const BoxCopy = styled.div`
     @media (max-width: 800px){
         font-size: 1.2rem;        
     }
-    @media (max-width: 440px) and (min-width: 393px){
+    @media (max-width: 440px) and (min-width: 360px){
         width: 50%;
     }
 `;

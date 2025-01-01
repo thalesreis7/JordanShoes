@@ -27,6 +27,9 @@ export const Main = styled.main`
     @media (max-width: 428px) and (min-width: 393px){
         ${MediaHeightMain}
     }
+    @media (max-width: 390px) and (min-width: 360px){
+        height: 245vh;
+    }
 `;
 
 export const MainBox = styled.section`
@@ -53,7 +56,7 @@ export const BoxText = styled.div`
         @media (max-width: 440px) and (min-width: 430px){
             ${WidthBoxTex}
         }
-        @media (max-width: 428px) and (min-width: 393px){
+        @media (max-width: 428px) and (min-width: 360px){
             ${WidthBoxTex}
         }
     h1{
@@ -65,6 +68,9 @@ export const BoxText = styled.div`
         }
         @media (max-width: 440px) and (min-width: 393px){
             font-size: 1.8rem;
+        }
+        @media (max-width: 390px) and (min-width: 360px){
+            font-size: 1.5rem;
         }
     }
     p{
@@ -83,6 +89,10 @@ export const BoxText = styled.div`
         @media (max-width: 428px) and (min-width: 393px){
            font-size: 1.2rem; 
         }
+        @media (max-width: 390px) and (min-width: 360px){
+            font-size: 1.1rem;
+        }
+
     }
 `;
 
