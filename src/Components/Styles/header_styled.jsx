@@ -34,6 +34,9 @@ export const Header = styled.header`
   @media (max-width: 428px) and (min-width: 360px){
     ${MediaHeigth}
   }
+  @media (max-width: 320px){
+    height: 30vh;
+  }
 `;
 
 export const BoxOne = styled.div`
@@ -62,7 +65,7 @@ export const P = styled.p`
   @media (max-width: 440px) and (min-width: 430px){
     font-size: 1.2rem;
   }
-  @media (max-width: 428px) and (min-width: 360px){
+  @media (max-width: 428px) and (min-width: 320px){
     font-size: 1.2rem;
   }
 `;
@@ -98,7 +101,7 @@ export const BoxThree = styled.div`
   @media (max-width: 440px) and (min-width: 430px){
     ${MediaQueries1}
   }
-  @media (max-width: 428px) and (min-width: 360px){
+  @media (max-width: 428px) and (min-width: 320px){
     ${MediaQueries1}
   }
 `;
@@ -130,6 +133,10 @@ export const Fig = styled.figcaption`
     top: 15%;
     left: 2%;
   }
+  @media (max-width: 320px){
+    width: 10%;
+    left: 20%;
+  }
   figcaption {
     font-family: "Archivo", sans-serif;
     font-size: 1rem;
@@ -141,7 +148,7 @@ export const Fig = styled.figcaption`
     @media (max-width: 440px) and (min-width: 430px){
       font-size: 1.2rem;
     }
-    @media (max-width: 428px) and (min-width: 360px){
+    @media (max-width: 428px) and (min-width: 320px){
       font-size: 1.3rem;
     }
   }  
@@ -168,6 +175,11 @@ export const BoxText = styled.div`
     @media (max-width: 428px) and (min-width: 360px){
       font-size: 1.4rem;
     }
+    @media (max-width: 320px){
+      font-size: 1rem;
+      position: relative;
+      top: 0.6rem;
+    }
   }
   p {
     font-size: 1.1rem;
@@ -190,6 +202,10 @@ export const BoxText = styled.div`
     @media (max-width: 428px) and (min-width: 360px){
       font-size: 1.1rem;
       bottom: 1rem;
+    }
+    @media (max-width: 320px){
+      font-size: 0.8rem;
+      bottom: 0.7rem;
     }
   }
 `;
