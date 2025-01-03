@@ -30,6 +30,9 @@ export const Main = styled.main`
     @media (max-width: 390px) and (min-width: 360px){
         height: 245vh;
     }
+    @media (max-width: 320px){
+        height: 305vh;
+    }
 `;
 
 export const MainBox = styled.section`
@@ -56,7 +59,7 @@ export const BoxText = styled.div`
         @media (max-width: 440px) and (min-width: 430px){
             ${WidthBoxTex}
         }
-        @media (max-width: 428px) and (min-width: 360px){
+        @media (max-width: 428px) and (min-width: 320px){
             ${WidthBoxTex}
         }
     h1{
@@ -71,6 +74,9 @@ export const BoxText = styled.div`
         }
         @media (max-width: 390px) and (min-width: 360px){
             font-size: 1.5rem;
+        }
+        @media (max-width: 320px){
+            font-size: 1.3rem;
         }
     }
     p{
@@ -92,7 +98,9 @@ export const BoxText = styled.div`
         @media (max-width: 390px) and (min-width: 360px){
             font-size: 1.1rem;
         }
-
+        @media (max-width: 320px){
+            font-size: 1rem;
+        }
     }
 `;
 
@@ -107,5 +115,8 @@ export const BoxCard = styled.section`
     @media (max-width: 884px){
         gap: 2.3rem;
         height: 70%;
+    }
+    @media (max-width:320px){
+        height: 96%;
     }
 `;

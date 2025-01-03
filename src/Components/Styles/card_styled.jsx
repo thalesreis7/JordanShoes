@@ -18,7 +18,7 @@ export const Card = styled.div`
     height: 33%;
     width: 47%;
   }
-  @media (max-width: 440px) and (min-width: 360px){
+  @media (max-width: 440px) and (min-width: 320px){
     width: 91%;
   }
 `;
