@@ -15,7 +15,6 @@ export const MediaQueries1 = css`
 `
 
 export const Header = styled.header`
-  /* border: solid 1px blue; */
   ${Center}
   flex-direction: column;
   justify-content: space-evenly;
@@ -39,13 +38,11 @@ export const Header = styled.header`
 `;
 
 export const BoxOne = styled.div`
-  /* border: solid 1px green; */
   ${Center}
   height: 3vh;
 `;
 
 export const P = styled.p`
-  /* border: solid 1px red; */
   font-size: 0.9rem;
   font-weight: 600;
   position: relative;
@@ -78,7 +75,6 @@ export const BoxTwo = styled.div`
 `;
 
 export const BoxThree = styled.div`
-  /* border: solid 1px black; */
   ${Center}
   flex-direction: column;
   align-items: first baseline;
@@ -106,7 +102,6 @@ export const BoxThree = styled.div`
 `;
 
 export const Fig = styled.figcaption`
-  /* border: solid 1px blue;  */
   ${Center}
   width: 35%;
   height: 15%;
@@ -154,7 +149,6 @@ export const Fig = styled.figcaption`
 `;
 
 export const BoxText = styled.div`
-  /* border: solid 1px blue; */
   ${Center}
   height: 70%;
   flex-direction: column;

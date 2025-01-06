@@ -7,7 +7,6 @@ export const  Center = css`
 `;
 
 export const Card = styled.div`
-  /* border: solid 1px blue; */
   width: 30%;
   height: 47%;
   ${Center}
@@ -23,7 +22,6 @@ export const Card = styled.div`
 `;
 
 export const BoxFigure = styled.figure`
-  /* border: solid 1px red; */
   width: 96%;
   height: 67%;
   background-color: #F3F7FF;
@@ -42,7 +40,6 @@ export const BoxFigure = styled.figure`
 `;
  
 export const BoxText = styled.div`
-  /* border: solid 1px green; */
   ${Center}
   flex-direction: column;
   align-items: flex-start;
