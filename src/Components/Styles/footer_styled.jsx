@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import breakpoints from "./breakpoint";
 
 export const Center = css`
     display: flex;
